@@ -69,7 +69,7 @@ summary += (f"----------------------------\n"
 print(summary)
 
 #specify a file path for the output file
-output_path = os.path.join("Analysis","MyPoll_Output_CJM.txt")
+output_path = os.path.join("Analysis","PyPoll_Output_CJM.txt")
 
 #open file in write mode and export to a .txt file
 with open(output_path, 'w') as txt_file:

@@ -67,7 +67,7 @@ with open(PyBank_csv) as csvfile:
     average_change = (net_change / month_span)           
 
 #specify a file path for the output file
-output_path = os.path.join("Analysis","MyBank_Output_CJM.txt")
+output_path = os.path.join("Analysis","PyBank_Output_CJM.txt")
 
 #open file in write mode
 with open(output_path, 'w') as txt_file:
